@@ -6,7 +6,7 @@
 //Geojson crearted with...http://geojson.io/#map=2/20.0/0.0
 var dataset = 'https://gist.githubusercontent.com/smullarkUPENN/8ca467359168937f674f967a02171b0f/raw/e57887d3c010dea7501ef8faa4868d7aeaa0f350/map.geojson'
 var featuregroup = () => { $.ajax(dataset).done(console.log)};console.log(featuregroup.feature);
-
+ 
 //An array that holds data for each slide that will be referenced later in code.
 //Title and text will be used to create narratives in sidebar
 //Style filters the data so that each polygon will have different settings based on selected ranges
